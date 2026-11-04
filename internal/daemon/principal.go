@@ -92,12 +92,12 @@ func (n *NetworkManager) SetupNetwork() error {
 		return err
 	}
 
-	_, err := GetDefaultInterface() //TODO: should return host interface
+	_, err := GetDefaultInterface() // TODO: should return host interface
 	if err != nil {
 		return err
 	}
-	//TODO: not finished
-	
+	// TODO: not finished
+
 	return nil
 }
 
